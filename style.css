@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+  --color-dark: #272a31;
+  --color-coral: #ec5242;
+  --text-coral: #f44c06;
+  --color-white: #fff;
+  --bg-gray: #d3d3d3;
+  --text-gray: #909090;
+  --text-darkgray: #565656;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  width: 100%;
+}
+
+.toplinks {
+  display: none;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(211, 211, 211, 0.8);
+}
+
+.hamburger {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: var(--text-darkgray);
+  margin: 10px;
+}
+
+.mlist.active {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  color: var(--color-white);
+  background: var(--color-dark);
+}
+
+.mlist.active .menu-closebtn {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  padding: 10px;
+  text-align: right;
+}
+
+.mlist.active .mitem {
+  color: var(--color-white);
+}
+
+.mlist.active .cbtn {
+  display: none;
+}
+
+.mlist.active li {
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.mlist .times.icon {
+  font-size: 20px;
+}
+
+.mlist.active a {
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+.mlist.active a:hover {
+  color: var(--color-coral);
+}
+
+.banner {
+  min-height: 50vh;
+  background-color: rgb(211, 211, 211, 0.8);
+  background-size: cover;
+}
+
+.banner::before {
+  content: "";
+  background: url("img/homepageimg.png");
+  background-size: cover;
+  width: 100%;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 80vh;
+  position: absolute;
+  z-index: -1;
+}
+
+.bcontent {
+  padding: 30px;
+  font-weight: 700;
+  color: var(--text-darkgray);
+  z-index: 2;
+}
+
+.bcontent h1 {
+  font-weight: 900;
+  color: var(--text-coral);
+  background: url("img/homepageimg.png") no-repeat center center;
+  background-size: cover;
+  background-clip: content-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.bdesc {
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+  border-style: solid;
+  border-color: var(--color-white);
+  font-family: "Lato", sans-serif;
+}
+
+.bcontent h2 {
+  font-weight: 900;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.bcontent h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.featuredspeakers {
+  flex-direction: column;
+}
+
+.featuredspeakers h2 {
+  text-align: center;
+  padding: 40px 0 20px 0;
+}
+
+.speakerslist {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 50px;
+  list-style-type: none;
+  padding: 0 4vw;
+}
+
+.speaker {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.speakerimg {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 100%;
+  max-height: 180px;
+  max-width: 180px;
+  background: url("img/micro.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 18px;
+}
+
+.speakerimg img {
+  display: block;
+  width: 85%;
+  height: 85%;
+}
+
+.speakerinfo {
+  flex: 1.8;
+  height: auto;
+  padding: 10px;
+}
+
+.speakername {
+  font-size: 1.4rem;
+  color: var(--color-dark);
+  margin-bottom: 0;
+}
+
+.speakertitle {
+  font-family: "lato", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: var(--color-coral);
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+.speakerdesc {
+  font-size: 14px;
+  font-family: "lato", sans-serif;
+  color: var(--color-dark);
+}
+
+.hrspeaker {
+  width: 5px;
+}
+
+.morebtn {
+  display: block;
+  background-color: var(--color-white);
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-style: solid;
+  border-color: var(--bg-gray);
+  font-family: "lato", sans-serif;
+}
+
+.chevron {
+  color: var(--color-coral);
+}
+
+.bgreeting {
+  font-weight: normal;
+  color: var(--text-coral);
+  background: url("img/homepageimg.png") no-repeat center center;
+  background-size: cover;
+  background-clip: content-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.logocontainer img {
+  display: none;
+}
+
+.logomenu {
+  display: flex;
+  flex-direction: row;
+}
+
+.mlist {
+  display: none;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 10px;
+  width: 100%;
+}
+
+.mainpro {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  padding: 50px 20px;
+  color: var(--color-white);
+  background: var(--color-dark);
+}
+
+.proheader {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.procard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 5px;
+  list-style: none;
+  padding: 12px;
+  background: #3c3f46;
+  border: 2px solid #3c3f46;
+}
+
+.procard:hover {
+  background: rgba(60, 63, 70, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 2px;
+  border: 2px solid var(--color-white);
+}
+
+.pro-card {
+  flex-direction: column;
+}
+
+.proimg {
+  font-size: 32px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.protitle {
+  width: 35%;
+  text-align: center;
+  padding: 5px;
+  color: var(--color-coral);
+}
+
+.promore {
+  display: none;
+}
+
+.probtn {
+  font-weight: 600;
+  color: var(--color-white);
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 20px 40px;
+  background: var(--color-coral);
+  border: none;
+  margin-left: 25%;
+}
+
+.probtn:hover {
+  color: var(--color-coral);
+  background: var(--color-white);
+  border: 2px solid var(--color-coral);
+}
+
+.protext {
+  width: 50%;
+  text-align: left;
+}
+
+.partners {
+  background-color: var(--text-darkgray);
+  padding: 20px;
+}
+
+.partnerhead {
+  text-align: center;
+  color: var(--text-gray);
+  font-size: 35px;
+}
+
+.partnerlogo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.plogo {
+  width: 18%;
+  height: 30%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.speakerlist {
+  list-style-type: none;
+}
+
+.bfooter {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.blogo {
+  width: 60%;
+}
+
+.bfootertext {
+  width: 100%;
+}
+
+.speaker.hide {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .navlinks {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-white);
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .toplinks {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: var(--text-darkgray);
+    color: var(--color-white);
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
+
+  .sociallinks a {
+    color: var(--color-white);
+    margin: 5px;
+    width: 100%;
+  }
+
+  .menu-closebtn {
+    display: none;
+  }
+
+  .toplink a {
+    color: var(--color-white);
+    margin: 5px;
+    width: 100%;
+  }
+
+  .mlist {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+
+  .mitem {
+    margin-right: 40px;
+  }
+
+  .mlist a {
+    color: var(--text-gray);
+  }
+
+  .mitem.active {
+    color: var(--color-coral);
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .logocontainer img {
+    display: block;
+    width: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .proheader {
+    text-align: center;
+    justify-content: center;
+    color: var(--color-white);
+    padding: 50px;
+  }
+
+  .procard {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .proimg {
+    width: 100%;
+    text-align: center;
+  }
+
+  .protitle {
+    text-align: center;
+    width: 100%;
+  }
+
+  .promore {
+    display: block;
+    color: var(--color-white);
+    text-align: center;
+    padding: 50px;
+    text-decoration: underline;
+  }
+
+  .promore:hover {
+    color: var(--color-coral);
+  }
+
+  .mainpro {
+    background-color: var(--color-dark);
+  }
+
+  .pro-card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .probtn {
+    display: none;
+  }
+
+  .protext {
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner {
+    min-height: 80vh;
+    background-color: rgb(211, 211, 211, 0.8);
+  }
+
+  .banner::before {
+    content: "";
+    background: url("img/homepageimg.png");
+    background-size: cover;
+    width: 100%;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .speakerslist {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    padding: 0 10vw;
+    list-style-type: none;
+  }
+
+  .morebtn {
+    display: none;
+  }
+
+  .bcontent {
+    padding: 100px;
+    font-family: "lato", sans-serif;
+  }
+
+  .bgreeting {
+    font-size: 24px;
+    font-family: "lato", sans-serif;
+  }
+
+  .bdesc {
+    font-size: 14px;
+    width: 60%;
+    padding: 10px;
+    border-style: solid;
+    border-color: var(--color-white);
+    font-family: "lato", sans-serif;
+  }
+
+  .bcontent h1,
+  .bcontent h2,
+  .bcontent h4 {
+    font-family: "lato", sans-serif;
+  }
+
+  .bcontent h1 {
+    font-size: 35px;
+  }
+
+  .bcontent h2 {
+    font-weight: bolder;
+    color: var(--color-gray);
+  }
+
+  .partners {
+    background-color: var(--text-darkgray);
+    padding: 20px;
+  }
+
+  .partnerhead {
+    text-align: center;
+    color: var(--text-gray);
+    font-size: 40px;
+  }
+
+  .partnerlogo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .plogo {
+    width: 18%;
+    font-size: 20px;
+    height: 30%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .speaker.hide {
+    display: flex;
+  }
+
+  .home {
+    display: none;
+  }
+
+  .cbtn {
+    border-style: solid;
+    border-color: var(--color-coral);
+    color: var(--color-coral);
+    background-color: var(--color-white);
+  }
+}
