@@ -1,11 +1,11 @@
-@import url('https://fonts.cdnfonts.com/css/cocogoose');
-@import url('https://fonts.cdnfonts.com/css/Lato');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap');
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap");
 
 :root {
   --color-white: #fff;
   --color-header: #272a31;
-  --font-family: 'Lato', sans-serif;
+  --font-family: "Lato", sans-serif;
   --color-primary: #ec5242;
 }
 
@@ -55,7 +55,7 @@ body {
 
   .nav2 .mainMenu li {
     padding: 15px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-style: normal;
     margin-right: 20px;
@@ -64,7 +64,7 @@ body {
 
   .nav2 .mainMenu li a {
     padding: 15px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-style: normal;
     margin-right: 20px;
@@ -103,10 +103,15 @@ body {
 
   .heading2 {
     margin-top: 42px;
-    font-family: 'Cocogoose', sans-serif;
+    font-family: "Cocogoose", sans-serif;
     font-size: 36px;
     text-transform: uppercase;
-    background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url(./images/it.jpeg);
+    background-image:
+      linear-gradient(
+        rgba(255, 38, 0, 0.76),
+        rgba(255, 51, 0, 0.575)
+      ),
+      url(./images/it.jpeg);
     background-repeat: repeat;
     background-clip: border-box;
     -webkit-background-clip: text;
@@ -116,7 +121,7 @@ body {
 
   .heading-text {
     margin-right: 12px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 12px;
     font-style: normal;
     color: #272a31;
@@ -126,7 +131,7 @@ body {
   }
 
   .heading-date {
-    font-family: 'Cocogoose', sans-serif;
+    font-family: "Cocogoose", sans-serif;
     color: #272a31;
   }
 
@@ -151,7 +156,7 @@ body {
   }
 
   .program {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 30px;
     color: white;
     margin-top: 5%;
@@ -190,14 +195,14 @@ body {
   }
 
   .programCards h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #ec5242;
     font-weight: bold;
     text-align: center;
   }
 
   .programCards p {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #d3d3d3;
     font-weight: bold;
     text-align: center;
@@ -210,7 +215,7 @@ body {
   }
 
   .program2 {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 30px;
     color: #272a31;
     margin-top: 5%;
@@ -220,7 +225,7 @@ body {
   }
 
   .join-Button {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 18px;
     margin: 10px 48px;
     padding: 24px;
@@ -255,14 +260,14 @@ body {
   }
 
   .feature-card h3 {
-    font-family: 'Cocogoose', sans-serif;
+    font-family: "Cocogoose", sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: #272a31;
   }
 
   .feature-card h5 {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #ec5242;
     font-weight: bold;
     text-align: left;
@@ -270,7 +275,7 @@ body {
   }
 
   .feature-card p {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #272a31;
     font-weight: bold;
     text-align: left;
@@ -323,7 +328,7 @@ body {
   }
 
   .about-big {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 12px;
     font-style: normal;
     color: #272a31;
@@ -336,7 +341,7 @@ body {
   }
 
   .about-small {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-style: normal;
     color: #272a31;
@@ -347,7 +352,7 @@ body {
   }
 
   .ccsummit {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-style: normal;
     color: #272a31;
@@ -358,7 +363,7 @@ body {
   }
 
   .about-program {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 20px;
     color: var(--color-header);
     margin-top: 5%;
@@ -379,7 +384,7 @@ body {
     text-align: center;
     color: #d3d3d3;
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     align-items: center;
     font-weight: 100;
     font-size: 24px;
@@ -439,7 +444,7 @@ body {
   .nav2 .mainMenu li {
     display: inline;
     padding: 15px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-style: normal;
     margin-right: 20px;
@@ -449,7 +454,7 @@ body {
   .nav2 .mainMenu li a {
     display: inline;
     padding: 15px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-style: normal;
     margin-right: 20px;
@@ -494,10 +499,15 @@ body {
   }
 
   .heading2 {
-    font-family: 'Cocogoose', sans-serif;
+    font-family: "Cocogoose", sans-serif;
     font-size: 50px;
     text-transform: uppercase;
-    background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url(./images/it.jpeg);
+    background-image:
+      linear-gradient(
+        rgba(255, 38, 0, 0.76),
+        rgba(255, 51, 0, 0.575)
+      ),
+      url(./images/it.jpeg);
     background-repeat: repeat;
     background-clip: border-box;
     -webkit-background-clip: text;
@@ -506,7 +516,7 @@ body {
   }
 
   .heading-text {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-style: normal;
     color: #272a31;
@@ -517,7 +527,7 @@ body {
   }
 
   .heading-date {
-    font-family: 'Cocogoose', sans-serif;
+    font-family: "Cocogoose", sans-serif;
   }
 
   .page1 {
@@ -541,14 +551,14 @@ body {
   }
 
   .program {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 30px;
     color: white;
     margin-top: 5%;
   }
 
   .program1 {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     color: white;
     margin-top: 5%;
@@ -591,14 +601,14 @@ body {
   }
 
   .programCards h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #ec5242;
     font-weight: bold;
     text-align: center;
   }
 
   .programCards p {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #d3d3d3;
     font-weight: bold;
     text-align: center;
@@ -606,7 +616,7 @@ body {
   }
 
   .program2 {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 30px;
     color: #272a31;
     margin-top: 5%;
@@ -658,14 +668,14 @@ body {
   }
 
   .feature-card h3 {
-    font-family: 'Cocogoose', sans-serif;
+    font-family: "Cocogoose", sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: #272a31;
   }
 
   .feature-card h5 {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #ec5242;
     font-weight: bold;
     text-align: left;
@@ -673,7 +683,7 @@ body {
   }
 
   .feature-card p {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #272a31;
     font-weight: bold;
     text-align: left;
@@ -721,7 +731,7 @@ body {
     text-align: center;
     color: #d3d3d3;
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     align-items: center;
     font-weight: 100;
     font-size: 28px;
@@ -764,7 +774,7 @@ body {
     text-align: left;
     color: #272a31;
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 12px;
     margin: 3%;
   }
@@ -775,7 +785,7 @@ body {
   }
 
   .about-big {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-style: normal;
     color: #272a31;
@@ -792,7 +802,7 @@ body {
   }
 
   .about-small {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-style: normal;
     color: #272a31;
@@ -803,7 +813,7 @@ body {
   }
 
   .ccsummit {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-style: normal;
     color: #272a31;
@@ -814,7 +824,7 @@ body {
   }
 
   .about-program {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 30px;
     color: var(--color-primary);
     margin-top: 5%;

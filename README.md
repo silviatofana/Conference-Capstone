@@ -9,7 +9,7 @@
 
 # Screenshot
 
-> This is the first [interface]
+> This is the first [interface](https://silviatofana.github.io/Conference-Capstone/)
 
 ## Built with
 
@@ -17,7 +17,7 @@
 
 ## Link to the live page
 
-> Feel free to check the [conference capstone-link]().
+> Feel free to check the [conference capstone-link](https://silviatofana.github.io/Conference-Capstone/).
 
 ## Authors
 
