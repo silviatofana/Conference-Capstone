@@ -1,0 +1,32 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.cdnfonts.com/css/Lato');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap');
+
+font-family:
+  'Lato',
+  sans-serif;
+
+:root {
+  --color-white: #fff;
+  --color-header: #272a31;
+  --font-family: 'Lato', sans-serif;
+  --color-primary: #ff5a5f;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+@media (min-width: 786px) {
+  .nav1 {
+    display: none;
+  }
+}
+
+@media (max-width: 786px) {
+  .nav1 {
+    display: none;
+  }
+}
