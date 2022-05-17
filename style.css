@@ -370,7 +370,7 @@ body {
   list-style-type: none;
 }
 
-.bfooter {
+/* .bfooter {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -379,15 +379,15 @@ body {
   justify-content: center;
   margin: 0;
   padding: 20px;
-}
+} */
 
 .blogo {
   width: 60%;
 }
-
+/* 
 .bfootertext {
   width: 100%;
-}
+} */
 
 .speaker.hide {
   display: none;
