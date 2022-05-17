@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 :root {
   --color-dark: #272a31;
@@ -110,15 +110,25 @@ body {
 }
 
 .bcontent h1 {
-  font-weight: 900;
-  color: var(--text-coral);
-  background: url("img/homepageimg.png") no-repeat center center;
-  background-size: cover;
-  background-clip: content-box;
-  -webkit-text-fill-color:#272a31;
-  -webkit-background-clip: text;
-  font-size: 32px;
   text-transform: uppercase;
+  background-repeat: repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  /* font-weight: 400; */
+  font-size: 2rem;
+  background-image: url(img/homepageimg.png);
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 900;
+  /* color: var(--text-coral);
+  background: url(img/homepageimg.png) no-repeat center center; */
+  /* background-size: cover;
+  background-clip: content-box; */
+  /* -webkit-text-fill-color: #272a31; */
+  /* -webkit-background-clip: text; */
+  /* font-size: 32px; */
+  /* text-transform: uppercase; */
 }
 
 .bdesc {
@@ -143,11 +153,15 @@ body {
 
 .featuredspeakers {
   flex-direction: column;
+  margin: 50px 0px;
 }
 
 .featuredspeakers h2 {
   text-align: center;
-  padding: 40px 0 20px 0;
+}
+
+.speakerhead {
+  margin: 40px 0px 20px;
 }
 
 .speakerslist {
@@ -187,7 +201,7 @@ body {
 .speakerinfo {
   flex: 1.8;
   height: auto;
-  padding: 10px;
+  padding: 2px;
 }
 
 .speakername {
@@ -236,7 +250,7 @@ body {
   background: url("img/homepageimg.png") no-repeat center center;
   background-size: cover;
   background-clip: content-box;
-  -webkit-text-fill-color:#272a31;
+  -webkit-text-fill-color: #ec5242;
   -webkit-background-clip: text;
   font-size: 20px;
   text-transform: uppercase;
@@ -281,7 +295,7 @@ body {
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  margin: 5px;
+  margin: 1px;
   list-style: none;
   padding: 12px;
   background: #3c3f46;
@@ -307,6 +321,11 @@ body {
   margin-top: 10px;
 }
 
+/* .speakerimg {
+  width: 50px;
+  height: auto;
+} */
+
 .protitle {
   width: 35%;
   text-align: center;
@@ -327,6 +346,7 @@ body {
   background: var(--color-coral);
   border: none;
   margin-left: 25%;
+  text-align: center;
 }
 
 .probtn:hover {
@@ -343,6 +363,7 @@ body {
 .partners {
   background-color: var(--text-darkgray);
   padding: 20px;
+  text-align: center;
 }
 
 .partnerhead {
@@ -370,7 +391,7 @@ body {
   list-style-type: none;
 }
 
-/* .bfooter {
+.bfooter {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -379,7 +400,7 @@ body {
   justify-content: center;
   margin: 0;
   padding: 20px;
-} */
+}
 
 .blogo {
   width: 60%;
@@ -400,6 +421,11 @@ body {
     background-color: var(--color-white);
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .featuredspeakers {
+    flex-direction: column;
+    padding: 50px 40px;
   }
 
   .toplinks {
@@ -499,6 +525,7 @@ body {
 
   .mainpro {
     background-color: var(--color-dark);
+    padding: 50px 200px;
   }
 
   .pro-card {
@@ -525,7 +552,7 @@ body {
     background: url("img/homepageimg.png");
     background-size: cover;
     width: 100%;
-  
+
     top: 0;
     left: 0;
     bottom: 0;
@@ -553,7 +580,6 @@ body {
 
   .bgreeting {
     font-size: 24px;
-    font-family: "lato", sans-serif;
   }
 
   .bdesc {
@@ -572,7 +598,8 @@ body {
   }
 
   .bcontent h1 {
-    font-size: 35px;
+    font-size: 45px;
+    font-family: "COCOGOOSE", sans-serif;
   }
 
   .bcontent h2 {

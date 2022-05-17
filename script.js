@@ -190,7 +190,7 @@ speakerdata.forEach((speaker) => {
 
   const speakerImage = document.createElement('div');
   speakerImage.className = 'speakerimg';
-  speakerImage.innerHTML = `<img src=${speaker.image} alt="Featured speaker">`;
+  speakerImage.innerHTML = `<img title='speaker' src=${speaker.image} alt="Featured speaker">`;
   li.appendChild(speakerImage);
 
   const speakerInfo = document.createElement('div');
