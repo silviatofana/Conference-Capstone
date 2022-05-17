@@ -68,6 +68,8 @@
 
 .scontainer {
   margin: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .sheading {
@@ -93,14 +95,14 @@
   width: 60%;
   border-style: solid;
   border-color: var(--bg-gray);
-  justify-content: center;
+  justify-self: center;
   text-align: center;
   align-items: center;
   padding: 30px;
+  margin-left: 20%;
 }
 
 .blogo {
-  margin-left: 20%;
   width: 60%;
 }
 
@@ -113,6 +115,7 @@ hr {
   justify-content: center;
   text-align: center;
   align-items: center;
+  margin-right: 30px;
 }
 
 .pevents {
@@ -150,11 +153,11 @@ hr {
 }
 
 .bfooter {
-  background-color: var(--text-darkgray);
+  background-color: white;
 }
 
 .bfootertext {
-  color: var(--color-white);
+  color: black;
 }
 
 @media only screen and (min-width: 768px) {

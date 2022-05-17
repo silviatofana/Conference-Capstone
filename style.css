@@ -103,7 +103,7 @@ body {
 }
 
 .bcontent {
-  padding: 30px;
+  padding: 10px;
   font-weight: 700;
   color: var(--text-darkgray);
   z-index: 2;
@@ -116,18 +116,25 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-font-smoothing: antialiased;
+
   /* font-weight: 400; */
   font-size: 2rem;
   background-image: url(img/homepageimg.png);
   font-family: "COCOGOOSE", sans-serif;
   font-weight: 900;
+
   /* color: var(--text-coral);
   background: url(img/homepageimg.png) no-repeat center center; */
+
   /* background-size: cover;
   background-clip: content-box; */
+
   /* -webkit-text-fill-color: #272a31; */
+
   /* -webkit-background-clip: text; */
+
   /* font-size: 32px; */
+
   /* text-transform: uppercase; */
 }
 
@@ -148,12 +155,12 @@ body {
 
 .bcontent h4 {
   margin: 0;
-  padding: 0;
+  padding: 35px;
 }
 
 .featuredspeakers {
   flex-direction: column;
-  margin: 50px 0px;
+  margin: 50px 0;
 }
 
 .featuredspeakers h2 {
@@ -161,7 +168,7 @@ body {
 }
 
 .speakerhead {
-  margin: 40px 0px 20px;
+  margin: 40px 0 20px;
 }
 
 .speakerslist {
@@ -230,14 +237,15 @@ body {
 }
 
 .morebtn {
-  display: block;
   background-color: var(--color-white);
-  width: 100%;
+  width: 95%;
   margin-bottom: 30px;
   margin-top: 30px;
   border-style: solid;
   border-color: var(--bg-gray);
   font-family: "lato", sans-serif;
+  height: 50px;
+  margin-left: 10px;
 }
 
 .chevron {
@@ -274,6 +282,7 @@ body {
 }
 
 .mainpro {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -345,7 +354,6 @@ body {
   padding: 20px 40px;
   background: var(--color-coral);
   border: none;
-  margin-left: 25%;
   text-align: center;
 }
 
@@ -403,12 +411,12 @@ body {
 }
 
 .blogo {
-  width: 60%;
+  width: 36%;
 }
-/* 
+
 .bfootertext {
   width: 100%;
-} */
+}
 
 .speaker.hide {
   display: none;
@@ -515,7 +523,7 @@ body {
     display: block;
     color: var(--color-white);
     text-align: center;
-    padding: 50px;
+    margin: 50px;
     text-decoration: underline;
   }
 
@@ -552,7 +560,6 @@ body {
     background: url("img/homepageimg.png");
     background-size: cover;
     width: 100%;
-
     top: 0;
     left: 0;
     bottom: 0;
@@ -595,6 +602,7 @@ body {
   .bcontent h2,
   .bcontent h4 {
     font-family: "lato", sans-serif;
+    padding: 35px;
   }
 
   .bcontent h1 {
