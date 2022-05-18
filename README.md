@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+https://www.loom.com/share/9d236f06b97e47069128f1fbdea5ec72
 
 #### Original design idea by **Cindy Shin in Behance**, in association with the Creative Commons [license](./MIT.md) of the design.
 <br />
@@ -6,15 +6,6 @@
 # Microverse
 
 > This project is about Microverse which is an online Platform which provides Software Development Course. It was founded by Ariel Camus in 2017 , who is the CEO and Founder of Microverse located in San Francisco, California.
-
-![screenshot](img/sc1.png)
-![screenshot](img/sc2.png)
-![screenshot](img/sc3.png)
-![screenshot](img/sc4.png)
-![screenshot](img/sc5.png)
-![screenshot](img/sc6.png)
-![screenshot](img/sc7.png)
-
 This project is a part of my Microverse curriculum. This is made as Final Project (Capstone), of 1st Module at Microverse in order to attract job opportunities. The main objective is to develop a professional website which showcase my professional skills and also will meet the requirements of a client and be able to meet deadlines.
 
 # Screenshot
