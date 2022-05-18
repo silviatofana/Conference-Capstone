@@ -103,7 +103,7 @@
 }
 
 .blogo {
-  width: 60%;
+  width: 20%;
 }
 
 hr {
@@ -161,6 +161,7 @@ hr {
 }
 
 @media only screen and (min-width: 768px) {
+    
   .bcontent {
     padding: 30px;
   }
@@ -187,5 +188,18 @@ hr {
 
   .pevents li {
     margin: 0;
+  }
+
+  .bfooter {
+    background-color: black;
+  }
+  
+  .bfootertext {
+    color: white;
+    align-items: center;
+  }
+
+  .partners {
+    display: none;
   }
 }

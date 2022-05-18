@@ -411,7 +411,7 @@ body {
 }
 
 .blogo {
-  width: 36%;
+  width: 20%;
 }
 
 .bfootertext {
@@ -624,7 +624,7 @@ body {
     text-align: center;
     color: var(--text-gray);
     font-size: 40px;
-  }
+  } */
 
   .partnerlogo {
     display: flex;
