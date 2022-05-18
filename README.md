@@ -1,5 +1,7 @@
 # Microverse HTML CSS Javascript-Capstone
 
+https://www.loom.com/share/9d236f06b97e47069128f1fbdea5ec72
+
 > For the final milestone in building Capstone Project website,
 
 > set up a new repository and prepare it for development using best practices (e.g. linters).
