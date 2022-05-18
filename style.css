@@ -45,6 +45,7 @@ body {
   height: 100vh;
   color: var(--color-white);
   background: var(--color-dark);
+  z-index: 20;
 }
 
 .mlist.active .menu-closebtn {
@@ -402,12 +403,12 @@ body {
 .bfooter {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: fit-content;
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin: 0;
-  padding: 20px;
+  margin: auto;
+  padding: 20px ;
 }
 
 .blogo {
@@ -415,11 +416,29 @@ body {
 }
 
 .bfootertext {
-  width: 100%;
+  width: 35%;
 }
 
 .speaker.hide {
   display: none;
+}
+
+.section-title {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.section-title::after {
+  content: "";
+  height: 1px;
+  width: 30px;
+  border-radius: 2px;
+  background: #EC5242;
+  transition: width 1s 5ms;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 @media only screen and (min-width: 768px) {
@@ -500,6 +519,7 @@ body {
     justify-content: center;
     color: var(--color-white);
     padding: 50px;
+    padding-bottom: 10px;
   }
 
   .procard {

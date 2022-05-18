@@ -159,6 +159,22 @@ hr {
 .bfootertext {
   color: black;
 }
+.section-title {
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  height: 1px;
+  width: 30px;
+  border-radius: 2px;
+  background: #EC5242;
+  transition: width 1s 5ms;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 @media only screen and (min-width: 768px) {
   .bcontent {
@@ -190,7 +206,7 @@ hr {
   }
 
   .bfooter {
-    background-color: black;
+    background-color: #272A31;
   }
 
   .bfootertext {
