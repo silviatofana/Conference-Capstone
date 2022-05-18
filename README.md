@@ -49,7 +49,6 @@ npx eslint ."
 
 > Feel free to check the [conference capstone-link](https://silviatofana.github.io/Conference-Capstone/).
 
-
 ## Authors
 
 👤 **Silvia Tofana**
