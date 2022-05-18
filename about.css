@@ -1,32 +1,220 @@
-@import url('https://fonts.cdnfonts.com/css/cocogoose');
-@import url('https://fonts.cdnfonts.com/css/Lato');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap');
-
-font-family:
-  'Lato',
-  sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 :root {
+  --color-dark: #272a31;
+  --color-coral: #ec5242;
+  --text-coral: #f44c06;
   --color-white: #fff;
-  --color-header: #272a31;
-  --font-family: 'Lato', sans-serif;
-  --color-primary: #ff5a5f;
+  --bg-gray: #d3d3d3;
+  --text-gray: #909090;
+  --text-darkgray: #565656;
 }
 
-body {
+.banner {
+  min-height: 50vh;
+  background-color: rgb(211, 211, 211, 0.8);
+  background-size: cover;
+}
+
+.banner::before {
+  content: "";
+  background: url("img/backabout.png");
+  background-size: cover;
+  width: 100%;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 57vh;
+  position: absolute;
+  z-index: -1;
+}
+
+.bcontent {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  padding: 2px;
+}
+
+.bgreeting {
+  margin: 20px;
+  color: var(--text-coral);
+}
+
+.bdesc {
+  width: 80%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 10%;
+  border-style: solid;
+  border-color: var(--bg-gray);
+  background-color: var(--color-white);
+}
+
+.bcontactinfo {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.bcontent h4 {
+  font-weight: bold;
+  font-family: "lato", sans-serif;
+  text-decoration: underline;
+}
+
+.scontainer {
+  margin: 30px;
   display: flex;
   flex-direction: column;
-  margin: 0;
 }
 
-@media (min-width: 786px) {
-  .nav1 {
-    display: none;
+.sheading {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+}
+
+.sdesc {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  margin: 30px;
+  padding: 20px;
+}
+
+.scontainer img {
+  width: 60%;
+  border-style: solid;
+  border-color: var(--bg-gray);
+  justify-self: center;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+  margin-left: 20%;
+}
+
+.blogo {
+  width: 20%;
+}
+
+hr {
+  color: var(--bg-gray);
+}
+
+.peventscontainer {
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.pevents {
+  list-style-type: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.pevent {
+  height: 100%;
+  width: 85%;
+  color: var(--color-white);
+  margin: 15px;
+}
+
+.one {
+  background-image: url(img/orange.jpg);
+}
+
+.two {
+  background-image: url(img/phase.jpg);
+}
+
+.pevent h3 {
+  padding: 30px;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "lato", sans-serif;
+}
+
+.pevent p {
+  padding: 20px;
+}
+
+.bfooter {
+  background-color: white;
+}
+
+.bfootertext {
+  color: black;
+}
+.section-title {
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  height: 1px;
+  width: 30px;
+  border-radius: 2px;
+  background: #EC5242;
+  transition: width 1s 5ms;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media only screen and (min-width: 768px) {
+  .bcontent {
+    padding: 30px;
   }
-}
 
-@media (max-width: 786px) {
-  .nav1 {
+  .bgreeting {
+    padding: 10px;
+  }
+
+  .bcontactinfo {
+    padding: 10px;
+  }
+
+  .peventsdesc {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .pevents {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .pevents li {
+    margin: 0;
+  }
+
+  .bfooter {
+    background-color: #272A31;
+  }
+
+  .bfootertext {
+    color: white;
+    align-items: center;
+  }
+
+  .partners {
     display: none;
   }
 }

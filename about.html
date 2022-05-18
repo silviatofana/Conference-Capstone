@@ -1,121 +1,109 @@
 <!DOCTYPE html>
-
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Capstone HTML/CSS</title>
-    <meta name="description" content="" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
     <link
+      href="http://fonts.cdnfonts.com/css/cocogoose?styles=44178"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./index.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav class="nav1">
-        <ul>
-          <li>
-            <i id="facebook-icon" class="fa fa-facebook"></i>
-          </li>
-          <li>
-            <i id="twitter-icon" class="fa fa-twitter"></i>
-          </li>
-          <li>English</li>
-          <li>My Page</li>
-          <li>Logout</li>
-        </ul>
-      </nav>
+    <script defer src="script.js"></script>
 
-      <nav class="nav2">
-        <div class="openMenu"><i class="fa fa-bars"></i></div>
-        <ul class="mainMenu">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="">Program</a></li>
-          <li>Join</li>
-          <li>Sponsor</li>
-          <li>News</li>
-          <li id="border-line">CC Campaign</li>
-          <li class="closeMenu"><i class="fa fa-times"></i></li>
+    <title>About us</title>
+</head>
+<body class="mainbody">
+    <header class="header">
+        <ul class="toplinks">
+            <li class="sociallinks">
+                <a href="https://twitter.com/microverseinc" class="twitter"><i class="twitter icon"></i></a>
+                <a href="https://www.facebook.com/microverseinc/" class="facebook"><i class="facebook f icon"></i></a>
+            </li>
+            <li class="toplink"><a href="#">English</a></li>
+            <li class="toplink"><a href="#">My Page</a></li>
+            <li class="toplink"><a href="#">Logout</a></li>
         </ul>
-      </nav>
+        <nav class="navlinks">
+            <div class="logomenu">
+                <div class="logocontainer">
+                    <a href="index.html"><img src="img/logo-microverse.png" alt="Microverse logo"></a>
+                </div>
+                <div class="hamburger">
+                    <i class="bars icon"></i>
+                </div>
+            </div>
+            <ul class="mlist">
+                <li class="menu-closebtn"><i class="times mitem"></i></li>
+                <li><a class="mitem home" href="index.html">Home</a></li>
+                <li><a class="mitem active" href="about.html">About</a></li>
+                <li><a class="mitem" href="index.html#pro">Program</a></li>
+                <li><a class="mitem" href="#">Join</a></li>
+                <li><a class="mitem" href="#">Sponsor</a></li>
+                <li><a class="mitem" href="#">News</a></li>
+                <li>
+                    <button type="button" class="cbtn">Admission</button>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <section class="landing">
-      <div class="about-landing-content">
-        <h1 class="heading1 about-none">"Hello! Sharing World"</h1>
-        <h2 class="heading2">CREATIVE COMMONS <br />GLOBAL SUMMIT 2015</h2>
-        <p class="about-big">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed
-          molestie ante, a semper magna. Nam quis iaculis libero. Sed vehicula,
-          augue et dapibus ornare, magna risus aliquet ipsum, in imperdiet ex
-          arcu ac risus. Cras porta aliquam porttitor. Nunc sed tortor ipsum.
-          Cras suscipit ex risus, sed consequat quam aliquet id. Cras hendrerit
-          suscipit odio, sit amet venenatis eros vestibulum consectetur. Integer
-          at enim sagittis, lacinia massa nec, condimentum ex.
-        </p>
-        <p class="about-small">
-          Please contact us per Email any further questions about CC Global
-          Summit 2015
-        </p>
-        <p class="ccsummit"><b>ccsummit2015@cckorea.org</b></p>
-      </div>
-    </section>
-    <section class="about-page1">
-      <div class="prg1">
-        <h3 class="about-program">Creative Commons Global Summit 2015 Logo</h3>
-        <hr class="underline" />
-      </div>
-      <div>
-        <p class="about-big">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed
-          molestie ante, a semper magna. Nam quis iaculis libero. Sed vehicula,
-          augue et dapibus ornare, magna risus aliquet ipsum, in imperdiet ex
-          arcu ac risus. Cras porta aliquam porttitor. Nunc sed tortor ipsum.
-          Cras suscipit ex risus, sed consequat quam aliquet id. Cras hendrerit
-          suscipit odio, sit amet venenatis eros vestibulum consectetur. Integer
-          at enim sagittis, lacinia massa nec, condimentum ex.
-        </p>
-      </div>
-      <img src="./images/creative-commons-license-logo.jpeg" alt="logo" />
+
+    <section class="banner">
+        <div class="bcontent">
+            <h1 class="bgreeting section-title">
+                MICROVERSE<br>
+                VERSION 2 PROGRAM 2022
+            </h1>
+            <p class="bdesc">Microverse brings every culture together. <br/>People from all over the world work as a team. Collaboration gives everyone an insight like how to work and interact in live environment.<br/> This year we want to expand more than the previous year. <br/>Because of Covid 19 , most of the jobs are remote and its a great opportunity to learn new skills. Remote jobs will continue even after the Covid 19. Microverse aims to increase by 80% till 2030.
+            </p>
+            <p class="bcontactinfo">Please contact us per email for any further questions about Microverse.</p>
+            <h4>admission@microverse.org <i class="chevron right icon"></i></h4>
+        </div>
     </section>
 
-    <section class="about-page2">
-      <div class="prg1">
-        <h3 class="about-program">See the past CC Global Summits</h3>
-        <hr class="underline" />
-      </div>
-      <div class="about-images">
-        <div class="imageleft">
-          <img src="./images/image1.jpg" class="photo" alt="Confrence 2021" />
-        </div>
-        <div class="overlay">
-          <p class="overlay-text">Conference 2022</p>
-        </div>
-
-        <div class="imageleft">
-          <img src="./images/image2.jpg" class="photo" alt="Conference 2022" />
-        </div>
-        <div class="overlay">
-          <p class="overlay-text">Conference 2022</p>
-        </div>
-      </div>
+    <section class="scontainer" id="sponsor">
+        <h2 class="sheading section-title">Microverse event main sponsor</h2>
+        <p class="sdesc">Microverse event will lead by Ariel Camus on 26th November 2022. This event will give you insight how Microverse is and what all you can achieve with it. Its a great platform for every level of developer.This plaform teaches you, encourages you, supports you and also help you meet with different people who have dreams like you. Sponsored by:
+        </p>
+        <img class="blogo" src="img/techcrunchlogo.png" alt="Tech Crunch logo">
     </section>
-    <div class="footer-class2">
-      <div class="prg1">
-        <h3 class="program">Partners</h3>
-        <hr class="underline" />
-        <a class="bold">mozilla</a>
-        <a class="faint">Google</a>
-        <a class="bold">NAVER</a>
-        <a class="faint">daumkakao</a>
-        <a class="bold"><i class="fa fa-airbnb"></i>airbnb</a>
-      </div>
-    </div>
+    <section class="peventscontainer"><hr/>
+        <h2 class="peventshead section-title">See past Microverse events</h2>
+        <p class="peventsdesc">Take a look at the revealing of the past three phases.</p>
+        <ul class="pevents">
+            <li class="pevent one">
+                <h3>2010</h3>
+                <p>Microverse 2018 in California</p>
+            </li>
+            <li class="pevent two">
+                <h3>2013</h3>
+                <p>Microverse 2019 in California</p>
+            </li>
+        </ul>
+    </section>
 
-    <script src="./style.js" async defer></script>
-  </body>
+    <footer class="footer">
+        <div class="partners">
+            <h2 class="partnerhead section-title">Partner</h2>
+            <div class="partnerlogo">
+                <img class="plogo" src="img/tech.png" alt="Tech Crunch logo">
+                <img class="plogo" src="img/EdSurgelogo.png" alt="EdSurge logo">
+                <img class="plogo" src="img/CincoDíaslogo.png" alt="Cinco Días logo">
+                <img class="plogo" src="img/Infobaelogo.png" alt="Infobae logo">
+            </div>
+        </div>
+        <div class="bfooter">
+           
+                <img class="blogo" src="img/techcrunchlogo.png" alt="Tech Crunch logo">
+           
+            <div class="bfootertext">
+                <h4>2022 Microverse. Some rights reserved.</h4>
+                <p>Tech Crunch in association with Microverse.</p>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
